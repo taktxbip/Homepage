@@ -1,0 +1,38 @@
+.tab-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+
+  li {
+    a {
+      display: block;
+      padding: 16px;
+      text-decoration: none;
+      color: #333;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        height: 2px;
+        background-color: #007bff;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+
+    &.active {
+      a {
+        &:after {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+}
