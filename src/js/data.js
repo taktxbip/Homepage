@@ -19,6 +19,12 @@ const dev = [
     tab: 'dev'
   },
   {
+    name: 'team-nerd-bot',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/team-nerd-bot',
+    image: '',
+    tab: 'dev'
+  },
+  {
     name: 'homepage',
     url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/css-projects/Homepage',
     image: '',
