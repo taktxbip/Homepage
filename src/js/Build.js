@@ -13,7 +13,8 @@ class Build {
 
     let html = '';
     for (const key in tabs) {
-      html += `<li class="tab-item"><a href="#${key}">${tabs[key]}</a></li>`;
+      const className = key === 'main' ? 'active' : '';
+      html += `<li class="tab-item ${className}"><a href="#${key}">${tabs[key]}</a></li>`;
     }
 
     tabList.innerHTML = html;
