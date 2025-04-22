@@ -135,6 +135,18 @@ const main = [
     url: 'https://player.twitch.tv/?channel=blackufa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
     image: '',
     tab: 'main'
+  },
+  {
+    name: 'Bitrefill',
+    url: 'https://www.bitrefill.com/',
+    image: '',
+    tab: 'main'
+  },
+  {
+    name: 'Travala',
+    url: 'https://www.travala.com/',
+    image: '',
+    tab: 'main'
   }
 ];
 
