@@ -8,18 +8,15 @@ body {
 }
 
 .masonry-list {
-  left: 50%;
-  margin: -320px 0 0 -480px;
-  position: absolute;
-  top: 50%;
-  width: 960px;
+  width: 100%;
+  height: calc(100vh - 52px);
 
   li {
     float: left;
-    height: 320px;
+    width: 20%;
     overflow: hidden;
     padding: 0 1px 1px 0;
-    width: 320px;
+    aspect-ratio: 1;
 
     &:focus,
     &:hover {
