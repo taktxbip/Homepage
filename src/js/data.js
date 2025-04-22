@@ -153,6 +153,12 @@ const main = [
     url: 'https://www.travala.com/',
     image: '',
     tab: 'main'
+  },
+  {
+    name: 'Arbitrage Services',
+    url: 'https://arbitrage-services.com/',
+    image: '',
+    tab: 'main'
   }
 ];
 
