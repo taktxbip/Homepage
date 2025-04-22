@@ -27,7 +27,7 @@ class Build {
 
     for (const key in tabs) {
       const tiles = sites.filter((item) => item.tab === key);
-      html += `<ul id="${key}" class="tab-content-item masonry-list">`;
+      html += `<ul id="${key}" style="${key == 'main' ? 'display:block' : 'display:none'}" class="tab-content-item masonry-list">`;
 
       tiles.forEach((item) => {
         if (item.image) {
