@@ -2,7 +2,7 @@ const tabs = {
   main: 'Main',
   'cex-api': 'CEX Api',
   'dex-api': 'DEX Api',
-  'dev': 'DEV',
+  'dev': 'dev',
 }
 
 const dev = [
@@ -107,7 +107,7 @@ const dexApi = [
 
 const main = [
   {
-    name: 'EpochConverter',
+    name: 'Epoch Converter',
     url: 'https://www.epochconverter.com/',
     image: '',
     tab: 'main'
