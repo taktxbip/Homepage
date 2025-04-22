@@ -17,15 +17,6 @@ class Build {
     }
 
     tabList.innerHTML = html;
-
-    // 
-    // for (const key in tabs) {
-    //   const tab = document.createElement('div');
-    //   tab.classList.add('tab');
-    //   tab.setAttribute('data-tab', key);
-    //   tab.innerText = tabs[key];
-    //   tabList.appendChild(tab);
-    // }
   }
 
   buildSites() {

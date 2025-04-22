@@ -1,10 +1,14 @@
+.tab-content {
+  padding: 1px;
+}
+
 .tab-list {
   display: flex;
   justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #f5f5f5;
 
   li {
     a {
@@ -21,7 +25,7 @@
         right: 0;
         bottom: -1px;
         height: 2px;
-        background-color: #007bff;
+        background-color: #000;
         transform: scaleX(0);
         transition: transform 0.3s ease-in-out;
       }
