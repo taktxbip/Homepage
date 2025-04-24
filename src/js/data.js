@@ -29,6 +29,12 @@ const dev = [
     url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/css-projects/Homepage',
     image: '',
     tab: 'dev'
+  },
+  {
+    name: 'Mongo DB',
+    url: 'https://cloud.mongodb.com/v2/6317208790cdcd7e82c73246#/metrics/replicaSet/659e7b08c5c26b747eaf799e/explorer/CryptoIO',
+    image: '',
+    tab: 'dev'
   }
 ];
 
