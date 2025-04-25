@@ -49,6 +49,7 @@ const cexApi = [
     name: 'Lbank',
     url: 'https://www.lbank.com/docs/index.html#introduction',
     image: '',
+    color: '#F5C45E', // yellow
     tab: 'cex-api'
   },
   {
@@ -67,6 +68,7 @@ const cexApi = [
     name: 'Coinex',
     url: 'https://docs.coinex.com/api/v2/spot/market/http/list-market',
     image: '',
+    color: '#1DCD9F', // salad
     tab: 'cex-api'
   },
   {
@@ -79,6 +81,7 @@ const cexApi = [
     name: 'Kucoin',
     url: 'https://www.kucoin.com/docs/beginners/introduction?x=th_TH',
     image: '',
+    color: '#03A791', // green
     tab: 'cex-api'
   },
   {
