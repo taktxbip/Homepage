@@ -32,9 +32,9 @@ class Build {
       tiles.forEach((item) => {
         const style = item?.color ? `background-color:${item.color}` : 'background-color:#222';
         if (item.image) {
-          html += `<li class="tile-case" style="${style}">
+          html += `<li class="tile-case">
           <a href="${item.url}">
-            <div class="tile-primary-content">
+            <div class="tile-primary-content" style="${style}">
               <img src="${item.image}" alt="#">
             </div>
             <div class="tile-secondary-content">
@@ -43,9 +43,9 @@ class Build {
           </a>
         </li>`;
         } else {
-          html += `<li class="tile-job" style="${style}">
+          html += `<li class="tile-job">
             <a href="${item.url}">
-              <div class="tile-primary-content"><p>${item.name}</p></div>
+              <div class="tile-primary-content" style="${style}"><p>${item.name}</p></div>
             </a>
           </li>`;
         }

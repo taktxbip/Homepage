@@ -128,25 +128,28 @@ const main = [
     name: 'Translate',
     url: 'https://translate.google.ru/?sl=en&tl=th&op=translate',
     image: '',
-    color: '#00f',
+    color: '#9FB3DF', // blue
     tab: 'main'
   },
   {
     name: 'Youtube',
     url: 'https://www.youtube.com/',
     image: '',
+    color: '#F75A5A', // red
     tab: 'main'
   },
   {
     name: 'Just NS',
     url: 'https://player.twitch.tv/?channel=just_ns&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.29',
     image: '',
+    color: '#3D365C',
     tab: 'main'
   },
   {
     name: 'Black UFA',
     url: 'https://player.twitch.tv/?channel=blackufa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
     image: '',
+    color: '#3D365C',
     tab: 'main'
   },
   {
