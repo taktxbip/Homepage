@@ -30,8 +30,9 @@ class Build {
       html += `<ul id="${key}" style="${key == 'main' ? 'display:block' : 'display:none'}" class="tab-content-item masonry-list">`;
 
       tiles.forEach((item) => {
+        const style = item?.color ? `background-color:${item.color}` : 'background-color:#222';
         if (item.image) {
-          html += `<li class="tile-case">
+          html += `<li class="tile-case" style="${style}">
           <a href="${item.url}">
             <div class="tile-primary-content">
               <img src="${item.image}" alt="#">
@@ -42,7 +43,7 @@ class Build {
           </a>
         </li>`;
         } else {
-          html += `<li class="tile-job">
+          html += `<li class="tile-job" style="${style}">
             <a href="${item.url}">
               <div class="tile-primary-content"><p>${item.name}</p></div>
             </a>

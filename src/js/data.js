@@ -128,6 +128,7 @@ const main = [
     name: 'Translate',
     url: 'https://translate.google.ru/?sl=en&tl=th&op=translate',
     image: '',
+    color: '#00f',
     tab: 'main'
   },
   {
