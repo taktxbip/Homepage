@@ -179,6 +179,13 @@ const main = [
     image: '',
     color: '#03A791',
     tab: 'main'
+  },
+  {
+    name: 'Thaifriendly',
+    url: 'https://www.thaifriendly.com/',
+    image: '',
+    color: '#9FB3DF',
+    tab: 'main'
   }
 ];
 
