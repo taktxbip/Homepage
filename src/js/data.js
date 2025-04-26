@@ -186,6 +186,13 @@ const main = [
     image: '',
     color: '#9FB3DF',
     tab: 'main'
+  },
+  {
+    name: 'Tinder',
+    url: 'https://tinder.com/',
+    image: '',
+    color: '#FF6363', // pink
+    tab: 'main'
   }
 ];
 
