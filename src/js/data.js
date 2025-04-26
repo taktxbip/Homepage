@@ -172,6 +172,13 @@ const main = [
     url: 'https://arbitrage-services.com/',
     image: '',
     tab: 'main'
+  },
+  {
+    name: 'Upwork',
+    url: 'https://www.upwork.com/ab/messages/rooms/',
+    image: '',
+    color: '#03A791',
+    tab: 'main'
   }
 ];
 
