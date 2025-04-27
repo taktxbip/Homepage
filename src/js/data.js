@@ -90,6 +90,66 @@ const cexApi = [
     url: 'https://bybit-exchange.github.io/docs/v5/intro',
     image: '',
     tab: 'cex-api'
+  },
+  {
+    name: 'OKX',
+    url: 'https://www.okx.com/docs-v5/en/#overview',
+    image: '',
+    tab: 'cex-api'
+  },
+  {
+    name: 'Bitget',
+    url: 'https://www.bitget.com/api-doc/contract/market/Get-All-Symbol-Ticker',
+    image: '',
+    color: '#1DCD9F', // salad
+    tab: 'cex-api'
+  },
+  {
+    name: 'HTX',
+    url: 'https://www.htx.com/en-us/opend/newApiPages/?id=8cb7c385-77b5-11ed-9966-0242ac110003',
+    image: '',
+    tab: 'cex-api'
+  },
+  {
+    name: 'Mexc',
+    url: 'https://mexcdevelop.github.io/apidocs/contract_v1_en/#update-log',
+    image: '',
+    color: '#9FB3DF', // blue
+    tab: 'cex-api'
+  },
+  {
+    name: 'Gate',
+    url: 'https://www.gate.io/docs/developers/apiv4/en/',
+    image: '',
+    tab: 'cex-api'
+  },
+  {
+    name: 'Bitfinex',
+    url: 'https://docs.bitfinex.com/docs/rest-general',
+    image: '',
+    color: '#03A791', // green
+    tab: 'cex-api'
+  },
+  {
+    name: 'Bingx',
+    url: 'https://bingx-api.github.io/docs/#/en-us/spot/changelog',
+    image: '',
+    color: '#9FB3DF', // blue
+    tab: 'cex-api'
+  },
+  {
+    name: 'Binance',
+    url: 'https://developers.binance.com/docs/binance-spot-api-docs',
+    image: '',
+    color: '#F5C45E', // yellow
+    tab: 'cex-api'
+  },
+  {
+    name: 'XT',
+    url: 'https://doc.xt.com/',
+    image: '',
+    color: '#F5C45E', // yellow
+    tab: 'cex-api'
   }
 ];
 
