@@ -5,37 +5,86 @@ const tabs = {
   'dev': 'dev',
 }
 
-const dev = [
+const main = [
   {
-    name: 'crypto-io-bot',
-    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/crypto-io-bot',
+    name: 'Epoch Converter',
+    url: 'https://www.epochconverter.com/',
     image: '',
-    tab: 'dev'
+    tab: 'main'
   },
   {
-    name: 'listings-parser',
-    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/listings-parser',
+    name: 'Translate',
+    url: 'https://translate.google.ru/?sl=en&tl=th&op=translate',
     image: '',
-    tab: 'dev'
+    color: '#9FB3DF', // blue
+    tab: 'main'
   },
   {
-    name: 'team-nerd-bot',
-    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/team-nerd-bot',
+    name: 'Youtube',
+    url: 'https://www.youtube.com/',
     image: '',
-    tab: 'dev'
+    color: '#F75A5A', // red
+    tab: 'main'
   },
   {
-    name: 'homepage',
-    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/css-projects/Homepage',
+    name: 'Just NS',
+    url: 'https://player.twitch.tv/?channel=just_ns&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.29',
     image: '',
-    tab: 'dev'
+    color: '#3D365C', // purple
+    tab: 'main'
   },
   {
-    name: 'Mongo DB',
-    url: 'https://cloud.mongodb.com/v2/6317208790cdcd7e82c73246#/metrics/replicaSet/659e7b08c5c26b747eaf799e/explorer/CryptoIO',
+    name: 'Black UFA',
+    url: 'https://player.twitch.tv/?channel=blackufa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
     image: '',
-    color: '#03A791', // green
-    tab: 'dev'
+    color: '#3D365C', // purple
+    tab: 'main'
+  },
+  {
+    name: 'Bitrefill',
+    url: 'https://www.bitrefill.com/',
+    image: '',
+    tab: 'main'
+  },
+  {
+    name: 'Travala',
+    url: 'https://www.travala.com/',
+    image: '',
+    tab: 'main'
+  },
+  {
+    name: 'Arbitrage Services',
+    url: 'https://arbitrage-services.com/',
+    image: '',
+    tab: 'main'
+  },
+  {
+    name: 'Upwork',
+    url: 'https://www.upwork.com/ab/messages/rooms/',
+    image: '',
+    color: '#03A791',
+    tab: 'main'
+  },
+  {
+    name: 'Thaifriendly',
+    url: 'https://www.thaifriendly.com/',
+    image: '',
+    color: '#9FB3DF',
+    tab: 'main'
+  },
+  {
+    name: 'Tinder',
+    url: 'https://tinder.com/',
+    image: '',
+    color: '#FF6363', // pink
+    tab: 'main'
+  },
+  {
+    name: 'Udemy',
+    url: 'https://www.udemy.com/home/my-courses/learning/',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'main'
   }
 ];
 
@@ -180,80 +229,37 @@ const dexApi = [
   }
 ];
 
-
-const main = [
+const dev = [
   {
-    name: 'Epoch Converter',
-    url: 'https://www.epochconverter.com/',
+    name: 'crypto-io-bot',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/crypto-io-bot',
     image: '',
-    tab: 'main'
+    tab: 'dev'
   },
   {
-    name: 'Translate',
-    url: 'https://translate.google.ru/?sl=en&tl=th&op=translate',
+    name: 'listings-parser',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/listings-parser',
     image: '',
-    color: '#9FB3DF', // blue
-    tab: 'main'
+    tab: 'dev'
   },
   {
-    name: 'Youtube',
-    url: 'https://www.youtube.com/',
+    name: 'team-nerd-bot',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/team-nerd-bot',
     image: '',
-    color: '#F75A5A', // red
-    tab: 'main'
+    tab: 'dev'
   },
   {
-    name: 'Just NS',
-    url: 'https://player.twitch.tv/?channel=just_ns&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.29',
+    name: 'homepage',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/css-projects/Homepage',
     image: '',
-    color: '#3D365C',
-    tab: 'main'
+    tab: 'dev'
   },
   {
-    name: 'Black UFA',
-    url: 'https://player.twitch.tv/?channel=blackufa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    name: 'Mongo DB',
+    url: 'https://cloud.mongodb.com/v2/6317208790cdcd7e82c73246#/metrics/replicaSet/659e7b08c5c26b747eaf799e/explorer/CryptoIO',
     image: '',
-    color: '#3D365C',
-    tab: 'main'
-  },
-  {
-    name: 'Bitrefill',
-    url: 'https://www.bitrefill.com/',
-    image: '',
-    tab: 'main'
-  },
-  {
-    name: 'Travala',
-    url: 'https://www.travala.com/',
-    image: '',
-    tab: 'main'
-  },
-  {
-    name: 'Arbitrage Services',
-    url: 'https://arbitrage-services.com/',
-    image: '',
-    tab: 'main'
-  },
-  {
-    name: 'Upwork',
-    url: 'https://www.upwork.com/ab/messages/rooms/',
-    image: '',
-    color: '#03A791',
-    tab: 'main'
-  },
-  {
-    name: 'Thaifriendly',
-    url: 'https://www.thaifriendly.com/',
-    image: '',
-    color: '#9FB3DF',
-    tab: 'main'
-  },
-  {
-    name: 'Tinder',
-    url: 'https://tinder.com/',
-    image: '',
-    color: '#FF6363', // pink
-    tab: 'main'
+    color: '#03A791', // green
+    tab: 'dev'
   }
 ];
 
