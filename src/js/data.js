@@ -78,14 +78,14 @@ const main = [
     image: '',
     color: '#FF6363', // pink
     tab: 'main'
-  },
-  {
-    name: 'Udemy',
-    url: 'https://www.udemy.com/home/my-courses/learning/',
-    image: '',
-    color: '#3D365C', // purple
-    tab: 'main'
   }
+  // {
+  //   name: 'Udemy',
+  //   url: 'https://www.udemy.com/home/my-courses/learning/',
+  //   image: '',
+  //   color: '#3D365C', // purple
+  //   tab: 'main'
+  // }
 ];
 
 const cexApi = [
