@@ -79,13 +79,6 @@ const main = [
     color: '#FF6363', // pink
     tab: 'main'
   }
-  // {
-  //   name: 'Udemy',
-  //   url: 'https://www.udemy.com/home/my-courses/learning/',
-  //   image: '',
-  //   color: '#3D365C', // purple
-  //   tab: 'main'
-  // }
 ];
 
 const cexApi = [
@@ -260,6 +253,12 @@ const dev = [
     image: '',
     color: '#03A791', // green
     tab: 'dev'
+  },
+  {
+    name: 'Github',
+    url: 'https://github.com/taktxbip?tab=repositories',
+    image: '',
+    tab: 'main'
   }
 ];
 
