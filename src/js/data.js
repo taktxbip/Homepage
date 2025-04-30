@@ -78,6 +78,20 @@ const main = [
     image: '',
     color: '#FF6363', // pink
     tab: 'main'
+  },
+  {
+    name: 'Airbnb',
+    url: 'https://airbnb.com/',
+    image: '',
+    color: '#FF6363', // pink
+    tab: 'main'
+  },
+  {
+    name: 'Booking',
+    url: 'https://booking.com/',
+    image: '',
+    color: '%239FB3DF', // blue
+    tab: 'main'
   }
 ];
 
