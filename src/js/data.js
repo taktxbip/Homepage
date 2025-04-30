@@ -272,7 +272,7 @@ const dev = [
     name: 'Github',
     url: 'https://github.com/taktxbip?tab=repositories',
     image: '',
-    tab: 'main'
+    tab: 'dev'
   }
   
 ];
