@@ -90,7 +90,7 @@ const main = [
     name: 'Booking',
     url: 'https://booking.com/',
     image: '',
-    color: '%239FB3DF', // blue
+    color: '#9FB3DF', // blue
     tab: 'main'
   }
 ];
