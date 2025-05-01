@@ -47,12 +47,6 @@ const main = [
     tab: 'main'
   },
   {
-    name: 'Travala',
-    url: 'https://www.travala.com/',
-    image: '',
-    tab: 'main'
-  },
-  {
     name: 'Arbitrage Services',
     url: 'https://arbitrage-services.com/',
     image: '',
@@ -91,6 +85,19 @@ const main = [
     url: 'https://booking.com/',
     image: '',
     color: '#9FB3DF', // blue
+    tab: 'main'
+  },
+  {
+    name: 'Skyscanner',
+    url: 'https://www.skyscanner.net/',
+    image: '',
+    color: '#9FB3DF', // blue
+    tab: 'main'
+  },
+  {
+    name: 'Travala',
+    url: 'https://www.travala.com/',
+    image: '',
     tab: 'main'
   }
 ];
