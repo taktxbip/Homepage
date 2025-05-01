@@ -279,8 +279,13 @@ const dev = [
     url: 'https://github.com/taktxbip?tab=repositories',
     image: '',
     tab: 'dev'
+  },
+  {
+    name: 'Figma',
+    url: 'https://www.figma.com/',
+    image: '',
+    tab: 'dev'
   }
-  
 ];
 
 const sites = [
