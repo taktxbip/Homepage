@@ -74,6 +74,12 @@ const main = [
     tab: 'main'
   },
   {
+    name: 'Travala',
+    url: 'https://www.travala.com/',
+    image: '',
+    tab: 'main'
+  },
+  {
     name: 'Airbnb',
     url: 'https://airbnb.com/',
     image: '',
@@ -92,12 +98,6 @@ const main = [
     url: 'https://www.skyscanner.net/',
     image: '',
     color: '#9FB3DF', // blue
-    tab: 'main'
-  },
-  {
-    name: 'Travala',
-    url: 'https://www.travala.com/',
-    image: '',
     tab: 'main'
   }
 ];
