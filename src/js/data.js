@@ -292,6 +292,37 @@ const dev = [
     url: 'https://www.figma.com/',
     image: '',
     tab: 'dev'
+  },
+  {
+    name: 'AWS',
+    url: 'https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin',
+    image: '',
+    tab: 'dev'
+  },
+  {
+    name: 'AdminVPS',
+    url: 'https://my.adminvps.ru/login',
+    image: '',
+    tab: 'dev'
+  },
+  {
+    name: 'VDC',
+    url: 'https://my.vdc.ru/clientarea',
+    image: '',
+    tab: 'dev'
+  },
+  {
+    name: 'Hosting Russia',
+    url: 'https://billing.hosting-russia.ru/billmgr?startform=vds',
+    image: '',
+    tab: 'dev'
+  },
+  {
+    name: 'Hosting Russia Panel',
+    url: 'https://vm.realnet.host/auth/login',
+    image: '',
+    color: '#FF6363', // pink
+    tab: 'dev'
   }
 ];
 
