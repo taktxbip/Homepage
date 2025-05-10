@@ -61,7 +61,7 @@ const main = [
   },
   {
     name: 'Thaifriendly',
-    url: 'https://www.thaifriendly.com/',
+    url: 'https://www.thaifriendly.com/browse.php',
     image: '',
     color: '#9FB3DF',
     tab: 'main'
