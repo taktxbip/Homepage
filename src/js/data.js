@@ -240,6 +240,12 @@ const dexApi = [
     url: 'https://docs.sushi.com/api/swagger',
     image: '',
     tab: 'dex-api'
+  },
+  {
+    name: 'The Graph',
+    url: 'https://thegraph.com/docs/en/subgraphs/quick-start/',
+    image: '',
+    tab: 'dex-api'
   }
 ];
 
