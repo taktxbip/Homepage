@@ -242,6 +242,12 @@ const dexApi = [
     tab: 'dex-api'
   },
   {
+    name: 'Uniswap',
+    url: 'https://docs.uniswap.org/sdk/v3/reference/classes/Trade',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
     name: 'The Graph',
     url: 'https://thegraph.com/docs/en/subgraphs/quick-start/',
     image: '',
