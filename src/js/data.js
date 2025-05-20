@@ -248,6 +248,24 @@ const dexApi = [
     tab: 'dex-api'
   },
   {
+    name: 'Matcha 0x',
+    url: 'https://0x.org/docs/introduction/introduction-to-0x',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
+    name: 'Cowswap',
+    url: 'https://docs.cow.fi/category/apis',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
+    name: 'Kyberswap',
+    url: 'https://docs.kyberswap.com/getting-started/quickstart',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
     name: 'The Graph',
     url: 'https://thegraph.com/docs/en/subgraphs/quick-start/',
     image: '',
