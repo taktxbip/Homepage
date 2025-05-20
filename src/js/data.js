@@ -335,7 +335,14 @@ const dev = [
     image: '',
     color: '#FF6363', // pink
     tab: 'dev'
-  }
+  },
+  {
+    name: 'Dataimpulse',
+    url: 'https://app.dataimpulse.com/dashboard',
+    image: '',
+    color: '#9FB3DF', // blue
+    tab: 'dev'
+  },
 ];
 
 const sites = [
