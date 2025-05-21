@@ -273,6 +273,12 @@ const dexApi = [
     tab: 'dex-api'
   },
   {
+    name: 'Gecko Terminal',
+    url: 'https://www.geckoterminal.com/dex-api',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
     name: 'Dex Screener',
     url: 'https://docs.dexscreener.com/api/reference',
     image: '',
@@ -371,6 +377,12 @@ const dev = [
     url: 'https://vm.realnet.host/auth/login',
     image: '',
     color: '#FF6363', // pink
+    tab: 'dev'
+  },
+  {
+    name: 'Hip Hosting',
+    url: 'https://my.hip.hosting/hiplets/new',
+    image: '',
     tab: 'dev'
   },
   {
