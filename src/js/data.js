@@ -266,6 +266,25 @@ const dexApi = [
     tab: 'dex-api'
   },
   {
+    name: 'CoinGecko',
+    url: 'https://docs.coingecko.com/v3.0.1/reference/introduction',
+    image: '',
+    color: '#03A791', // green
+    tab: 'dex-api'
+  },
+  {
+    name: 'Dex Screener',
+    url: 'https://docs.dexscreener.com/api/reference',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
+    name: 'GMGN',
+    url: 'https://docs.gmgn.ai/index/cooperation-api-integrate-gmgn-eth-base-bsc-trading-api',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
     name: 'The Graph',
     url: 'https://thegraph.com/docs/en/subgraphs/quick-start/',
     image: '',
