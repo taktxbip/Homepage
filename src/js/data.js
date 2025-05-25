@@ -400,7 +400,7 @@ const rpc = [
     name: 'Developer Metamask',
     url: 'https://developer.metamask.io/dashboard/stats',
     image: '',
-    tab: 'dev'
+    tab: 'rpc'
   },
 ]
 
