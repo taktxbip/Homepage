@@ -3,6 +3,7 @@ const tabs = {
   'cex-api': 'CEX Api',
   'dex-api': 'DEX Api',
   'dev': 'dev',
+  'rpc': 'RPC'
 }
 
 const main = [
@@ -394,11 +395,21 @@ const dev = [
   },
 ];
 
+const rpc = [
+  {
+    name: 'Developer Metamask',
+    url: 'https://developer.metamask.io/dashboard/stats',
+    image: '',
+    tab: 'dev'
+  },
+]
+
 const sites = [
   ...main,
   ...cexApi,
   ...dexApi,
-  ...dev
+  ...dev,
+  ...rpc
 ];
 
 export {
