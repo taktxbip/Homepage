@@ -237,18 +237,6 @@ const dexApi = [
     tab: 'dex-api'
   },
   {
-    name: 'Sushi',
-    url: 'https://docs.sushi.com/api/swagger',
-    image: '',
-    tab: 'dex-api'
-  },
-  {
-    name: 'Uniswap',
-    url: 'https://docs.uniswap.org/sdk/v3/reference/classes/Trade',
-    image: '',
-    tab: 'dex-api'
-  },
-  {
     name: 'Matcha 0x',
     url: 'https://0x.org/docs/introduction/introduction-to-0x',
     image: '',
@@ -263,6 +251,24 @@ const dexApi = [
   {
     name: 'Kyberswap',
     url: 'https://docs.kyberswap.com/getting-started/quickstart',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
+    name: 'Velora (Paraswap)',
+    url: 'https://developers.velora.xyz/',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
+    name: 'Ston.fi',
+    url: 'https://docs.ston.fi/user-section/overview',
+    image: '',
+    tab: 'dex-api'
+  },
+  {
+    name: 'DeDust',
+    url: 'https://hub.dedust.io/sdk/v2/overview',
     image: '',
     tab: 'dex-api'
   },
