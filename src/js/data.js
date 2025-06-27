@@ -60,13 +60,13 @@ const main = [
     color: '#03A791',
     tab: 'main'
   },
-  {
-    name: 'Thaifriendly',
-    url: 'https://www.thaifriendly.com/browse.php',
-    image: '',
-    color: '#9FB3DF',
-    tab: 'main'
-  },
+  // {
+  //   name: 'Thaifriendly',
+  //   url: 'https://www.thaifriendly.com/browse.php',
+  //   image: '',
+  //   color: '#9FB3DF',
+  //   tab: 'main'
+  // },
   {
     name: 'Tinder',
     url: 'https://tinder.com/',
