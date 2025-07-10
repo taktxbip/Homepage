@@ -307,6 +307,18 @@ const dexApi = [
 
 const dev = [
   {
+    name: 'orca-front',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/nextjs-projects/orca-front',
+    image: '',
+    tab: 'dev'
+  },
+  {
+    name: 'orca-back',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/orca-back',
+    image: '',
+    tab: 'dev'
+  },
+  {
     name: 'crypto-io-bot',
     url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/crypto-io-bot',
     image: '',
@@ -319,6 +331,12 @@ const dev = [
     tab: 'dev'
   },
   {
+    name: 'the-chipmunk-bot',
+    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/the-chipmunk-bot',
+    image: '',
+    tab: 'dev'
+  },
+  {
     name: 'team-nerd-bot',
     url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/team-nerd-bot',
     image: '',
@@ -327,18 +345,6 @@ const dev = [
   {
     name: 'homepage',
     url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/css-projects/Homepage',
-    image: '',
-    tab: 'dev'
-  },
-  {
-    name: 'orca-front',
-    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/nextjs-projects/orca-front',
-    image: '',
-    tab: 'dev'
-  },
-  {
-    name: 'orca-back',
-    url: 'https://vscode.dev/tunnel/evgeniis-macbook-pro/Users/evnomad/node-projects/orca-back',
     image: '',
     tab: 'dev'
   },
