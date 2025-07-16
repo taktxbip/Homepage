@@ -41,6 +41,13 @@ const main = [
     color: '#3D365C', // purple
     tab: 'main'
   },
+    {
+    name: 'betboom_ru',
+    url: 'https://player.twitch.tv/?channel=betboom_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'main'
+  },
   {
     name: 'Bitrefill',
     url: 'https://www.bitrefill.com/',
