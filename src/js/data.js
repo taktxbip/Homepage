@@ -3,7 +3,8 @@ const tabs = {
   'cex-api': 'CEX Api',
   'dex-api': 'DEX Api',
   'dev': 'dev',
-  'rpc': 'RPC'
+  'rpc': 'RPC',
+  'twitch': 'Twitch'
 }
 
 const main = [
@@ -25,34 +26,6 @@ const main = [
     url: 'https://www.youtube.com/',
     image: '',
     color: '#F75A5A', // red
-    tab: 'main'
-  },
-  {
-    name: 'Just NS',
-    url: 'https://player.twitch.tv/?channel=just_ns&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.29',
-    image: '',
-    color: '#3D365C', // purple
-    tab: 'main'
-  },
-  {
-    name: 'Black UFA',
-    url: 'https://player.twitch.tv/?channel=blackufa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
-    image: '',
-    color: '#3D365C', // purple
-    tab: 'main'
-  },
-  {
-    name: 'betboom_ru',
-    url: 'https://player.twitch.tv/?channel=betboom_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
-    image: '',
-    color: '#3D365C', // purple
-    tab: 'main'
-  },
-  {
-    name: 'dyrachyo',
-    url: 'https://player.twitch.tv/?channel=dyrachyo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
-    image: '',
-    color: '#3D365C', // purple
     tab: 'main'
   },
   {
@@ -436,12 +409,73 @@ const rpc = [
   },
 ]
 
+
+const twitch = [
+  {
+    name: 'Just NS',
+    url: 'https://player.twitch.tv/?channel=just_ns&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.29',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'Black UFA',
+    url: 'https://player.twitch.tv/?channel=blackufa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'betboom_ru',
+    url: 'https://player.twitch.tv/?channel=betboom_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'dyrachyo',
+    url: 'https://player.twitch.tv/?channel=dyrachyo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'dota2ti_ru',
+    url: 'https://player.twitch.tv/?channel=dota2ti_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'dota2ti_ru_2',
+    url: 'https://player.twitch.tv/?channel=dota2ti_ru_2&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'dota2ti_ru_3',
+    url: 'https://player.twitch.tv/?channel=dota2ti_ru_3&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
+    name: 'dota2ti_ru_4',
+    url: 'https://player.twitch.tv/?channel=dota2ti_ru_4&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  }
+]
+
 const sites = [
   ...main,
   ...cexApi,
   ...dexApi,
   ...dev,
-  ...rpc
+  ...rpc,
+  ...twitch
 ];
 
 export {
