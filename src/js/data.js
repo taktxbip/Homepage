@@ -433,6 +433,13 @@ const twitch = [
     tab: 'twitch'
   },
   {
+    name: 'karmikkoala',
+    url: 'https://player.twitch.tv/?channel=karmikkoala&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
+    image: '',
+    color: '#3D365C', // purple
+    tab: 'twitch'
+  },
+  {
     name: 'betboom_ru',
     url: 'https://player.twitch.tv/?channel=betboom_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=1',
     image: '',
