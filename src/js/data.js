@@ -201,6 +201,13 @@ const cexApi = [
     image: '',
     color: '#F5C45E', // yellow
     tab: 'cex-api'
+  },
+  {
+    name: 'Hyperliquid',
+    url: 'https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/notation',
+    image: '',
+    color: '#aefae5',
+    tab: 'cex-api'
   }
 ];
 
