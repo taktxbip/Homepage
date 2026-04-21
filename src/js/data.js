@@ -2,6 +2,7 @@ const tabs = {
   main: 'Main',
   'cex-api': 'CEX Api',
   'dex-api': 'DEX Api',
+  'tv': 'TradingView',
   'dev': 'dev',
   'rpc': 'RPC',
   'twitch': 'Twitch'
@@ -490,10 +491,56 @@ const twitch = [
   }
 ]
 
+const tv = [
+  {
+    name: 'Crypto',
+    url: 'https://www.tradingview.com/chart/0bbOSxa2/',
+    image: '',
+    color: '#222', // black
+    tab: 'tv'
+  },
+  {
+    name: 'Metal',
+    url: 'https://www.tradingview.com/chart/A8JH9yhU/',
+    image: '',
+    color: '#222', // black
+    tab: 'tv'
+  },
+  {
+    name: 'ED',
+    url: 'https://www.tradingview.com/chart/m8rAzNu8/',
+    image: '',
+    color: '#222', // black
+    tab: 'tv'
+  },
+  {
+    name: 'EU3',
+    url: 'https://www.tradingview.com/chart/rDY8eopO/',
+    image: '',
+    color: '#222', // black
+    tab: 'tv'
+  },
+  {
+    name: 'CNY3',
+    url: 'https://www.tradingview.com/chart/D0q63efY/',
+    image: '',
+    color: '#222', // black
+    tab: 'tv'
+  },
+  {
+    name: 'Orca 1',
+    url: 'https://www.tradingview.com/chart/yjOhy7ds/',
+    image: '',
+    color: '#222', // black
+    tab: 'tv'
+  }
+];
+
 const sites = [
   ...main,
   ...cexApi,
   ...dexApi,
+  ...tv,
   ...dev,
   ...rpc,
   ...twitch
