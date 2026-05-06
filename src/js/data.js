@@ -1,10 +1,10 @@
 const tabs = {
   main: 'Main',
   'cex-api': 'CEX Api',
-  'dex-api': 'DEX Api',
+  // 'dex-api': 'DEX Api',
   'tv': 'TradingView',
   'dev': 'dev',
-  'rpc': 'RPC',
+  // 'rpc': 'RPC',
   'twitch': 'Twitch'
 }
 
