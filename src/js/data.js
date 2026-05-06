@@ -507,13 +507,6 @@ const tv = [
     tab: 'tv'
   },
   {
-    name: 'ED',
-    url: 'https://www.tradingview.com/chart/m8rAzNu8/',
-    image: '',
-    color: '#222', // black
-    tab: 'tv'
-  },
-  {
     name: 'EU3',
     url: 'https://www.tradingview.com/chart/rDY8eopO/',
     image: '',
